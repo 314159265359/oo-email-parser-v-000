@@ -12,7 +12,7 @@ class EmailParser
   end
 
   def parse(emails)
-    puts @emails.split(',') + "Z"
+    puts @emails.split(',') + " Z"
   end
 
 end
