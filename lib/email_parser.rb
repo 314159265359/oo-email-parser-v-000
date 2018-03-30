@@ -11,8 +11,8 @@ class EmailParser
     puts @emails + "X"
   end
 
-  # def parse(emaillist)
-  #   @emaillist.split(',')
-  # end
+  def parse(emails)
+    puts @emails.split(',') + "Z"
+  end
 
 end
