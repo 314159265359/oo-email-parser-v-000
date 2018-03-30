@@ -7,12 +7,12 @@ class EmailParser
   attr_accessor :emaillist
 
   def initialize(emails)
-    @emaillist = emails.split(',')
+    @emaillist = emails
     puts emaillist
   end
 
-  # def parse(emails)
-  #
-  # end
+  def parse(emails)
+    @emaillist = emails.split(',')
+  end
 
 end
