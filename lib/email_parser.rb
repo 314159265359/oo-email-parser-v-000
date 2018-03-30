@@ -6,10 +6,10 @@
 class EmailParser(emails)
 
 
-  def parse
+  def parse(emails)
     emails.split(','||' ')
   end
-  
+
 
 
 end
