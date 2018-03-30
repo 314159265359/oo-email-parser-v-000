@@ -11,7 +11,7 @@ class EmailParser
     puts @emails + "X"
   end
 
-  def parse(emails)
+  def parse
     puts " Z"
   end
 
