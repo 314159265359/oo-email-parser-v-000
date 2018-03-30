@@ -6,7 +6,7 @@ class EmailParser
   end
 
   def parse
-    reg = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}/i
+    reg = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}/i
     @emails.scan(reg).uniq
   end
 
