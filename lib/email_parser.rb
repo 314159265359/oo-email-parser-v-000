@@ -5,10 +5,10 @@
 
 class EmailParser(emails)
   attr_accessor :emaillist
-  
+  emaillist = [emails].to_a
 
   def parse(emails)
-    emails.split(',')
+    emaillist.split(',')
   end
 
 
