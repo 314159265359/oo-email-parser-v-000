@@ -7,7 +7,7 @@ class EmailParser
   attr_accessor :emaillist
 
   def initialize(emails)
-    @emaillist = emails
+    @emaillist = emails.split(',')
     puts emaillist
   end
 
