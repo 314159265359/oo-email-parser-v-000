@@ -5,10 +5,10 @@
 
 class EmailParser(emails)
   puts emails
-  
-  def parse(emails)
 
-  end
+  # def parse(emails)
+  #
+  # end
 
 
 
